@@ -99,7 +99,7 @@ public class HangmanGame {
                 }
         }
             score--;
-            result = "You lost. The word was: " +playerStatus.getWord() +  " | " + "no value" + " | " + score;
+            result = "You lost. The word was: " +this.word +  " | " + "no value" + " | " + score;
             pickNewWord();
             return result;         
     }   
